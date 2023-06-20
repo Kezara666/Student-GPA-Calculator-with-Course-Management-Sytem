@@ -4,7 +4,6 @@
 
 A student GPA calculator and course management system developed in [insert technology/programming language used].
 
-![Sample](https://github.com/Kezara666/Student-GPA-Calculator-with-Course-Management-Sytem/raw/main/assets/87107996/c0228417-ace6-40f9-8df3-8a602e245faa.jpg)
 
 ## Features
 
@@ -12,6 +11,9 @@ A student GPA calculator and course management system developed in [insert techn
 - Add, delete, and update courses.
 - View course details and overall GPA.
 - [Add any additional features of your project]
+
+![image](https://github.com/Kezara666/Student-GPA-Calculator-with-Course-Management-Sytem/assets/87107996/372998bc-e36b-49fd-aa92-ac53a59a1a1d)
+
 
 ## Getting Started
 
