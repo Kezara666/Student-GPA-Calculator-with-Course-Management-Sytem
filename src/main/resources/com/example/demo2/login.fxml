@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.LogedinController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-image: url('https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg'); -fx-background-size: cover;">
+            <!-- Your other UI components here -->
+
+
+            <children>
+                <Label layoutX="120.0" layoutY="53.0" prefHeight="62.0" prefWidth="203.0" text="Student" textFill="#eceaea">
+                    <font>
+                        <Font name="Bell MT" size="26.0" />
+                    </font>
+                </Label>
+                <Label layoutX="92.0" layoutY="84.0" prefHeight="62.0" prefWidth="203.0" text="Management" textFill="#eceaea">
+                    <font>
+                        <Font name="Bell MT" size="26.0" />
+                    </font>
+                </Label>
+                <Label layoutX="113.0" layoutY="263.0" prefHeight="62.0" prefWidth="203.0" text="System" textFill="#eceaea">
+                    <font>
+                        <Font name="Bell MT" size="26.0" />
+                    </font>
+                </Label>
+            <ProgressBar fx:id="progressIndicator" layoutX="62.0" layoutY="325.0" prefWidth="200.0" progress="0.0" />
+            </children>
+            <cursor>
+                <Cursor fx:constant="NONE" />
+            </cursor></AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="408.0" style="-fx-background-color: #3b3d3c;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="63.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                    <image>
+                        <Image url="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="tf_uname" layoutX="46.0" layoutY="231.0" prefHeight="26.0" prefWidth="211.0" promptText="Username" />
+                <Label layoutX="101.0" layoutY="151.0" prefHeight="62.0" prefWidth="203.0" text="Login" textFill="#eceaea">
+                    <font>
+                        <Font name="Calisto MT" size="26.0" />
+                    </font>
+                </Label>
+
+                <Button fx:id="btn_login" layoutX="89.0" layoutY="311.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="125.0" style="-fx-background-color: #3EB2FD; -fx-background-radius: 50; -fx-border-radius: 50; -fx-text-fill: white;" text="Login">
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor></Button>
+                <Button fx:id="btn_signup" layoutX="203.0" layoutY="358.0" mnemonicParsing="false" style="-fx-background-color: #3b3d3c; -fx-background-radius: 50; -fx-border-radius: 50; -fx-text-fill: white;" text="SignUp" textFill="#08df45">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+
+                <Label layoutX="14.0" layoutY="340.0" prefHeight="62.0" prefWidth="203.0" text="If you havent account yet try here" textFill="#eceaea">
+                    <font>
+                        <Font name="Bell MT" size="13.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="tf_password" layoutX="46.0" layoutY="273.0" prefHeight="26.0" prefWidth="211.0" promptText="Password" />
+            <Label fx:id="lbl_error" layoutX="63.0" layoutY="200.0" prefHeight="26.0" prefWidth="203.0" textFill="#fa0808">
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </Label>
+
+            </children></AnchorPane>
+    </children>
+</HBox>
