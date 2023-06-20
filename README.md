@@ -1,6 +1,11 @@
 # Student GPA Calculator with Course Management System
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Java Version](https://img.shields.io/badge/Java-8-blue)](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+[![JavaFX Version](https://img.shields.io/badge/JavaFX-8-green)](https://openjfx.io/)
+[![MySQL Connector/J Version](https://img.shields.io/badge/MySQL%20Connector%2FJ-8.0.26-orange)](https://dev.mysql.com/downloads/connector/j/)
+[![Apache Commons IO Version](https://img.shields.io/badge/Apache%20Commons%20IO-2.11.0-blue)](https://commons.apache.org/proper/commons-io/)
+
 
 A student GPA calculator and course management system developed in [insert technology/programming language used].
 
