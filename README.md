@@ -24,10 +24,6 @@ A student GPA calculator and course management system developed in [insert techn
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-- [List any prerequisites or dependencies required to run the project]
-
 ### Installation
 
 1. Clone the repository:
